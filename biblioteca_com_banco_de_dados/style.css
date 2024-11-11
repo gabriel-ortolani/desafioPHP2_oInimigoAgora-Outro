@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+h1{
+    position: relative;
+    color: rgba(91, 16, 95, 0.735);
+    left: 39%;
+    width: 250px;
+}
+
+h2{
+    position: relative;
+    color: rgba(116, 13, 121, 0.735);
+    left: 42%;
+    width: 250px;
+}
+
+label{
+    color: rgba(175, 40, 183, 0.735);
+}
+
+table{
+    border: solid 1px rgba(175, 40, 183, 0.735);
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+table tr, td{
+    color: white;
+    background-color: black;
+}
+
+table th{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0px 10px 0px 0px;
+}
+
+input{
+    color: white;
+    border: solid 3px rgba(116, 13, 121, 0.735);
+    border-radius: 7px;
+    background-color: black;
+}
+
+select{
+    color: white;
+    background-color: black;
+    border: solid 3px rgba(116, 13, 121, 0.735);
+    border-radius: 7px;
+}
+
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 250px;
+    left: 33%;
+    padding: 5px;
+}
+
+form label{
+    padding: 5px 0px 0px 0px;
+    color: black;
+}
+
+#add{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    top: 30px;
+    left: 35%;
+    background-color: black;
+}
+
+#add:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.228);
+}
+
+input:hover{
+    background-color: rgba(0, 0, 0, 0.228);
+}
+
+select:hover{
+    background-color: rgba(0, 0, 0, 0.228);
+}
